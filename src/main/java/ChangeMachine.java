@@ -11,19 +11,19 @@ public class ChangeMachine {
     mPennies = 20;
   }
 
-  public int getQuarters(){
+  public int getQuarters() {
     return mQuarters;
   }
 
-  public int getDimes(){
+  public int getDimes() {
     return mDimes;
   }
 
-  public int getNickels(){
+  public int getNickels() {
     return mNickels;
   }
 
-  public int getPennies(){
+  public int getPennies() {
     return mPennies;
   }
 

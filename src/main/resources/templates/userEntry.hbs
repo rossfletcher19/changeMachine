@@ -1,0 +1,15 @@
+{{#partial "content"}}
+
+<h1>Enter a dollar amount that you would like to receive change for. ex. "1.50"</h1>
+<form action='/changeMachine'>
+ <div class="form-group">
+   <label for="sender">Your amount</label>
+   <input id="cashInput" name="cashInput" class="form-control" type="text">
+ </div>
+ <button type="submit" class="btn">Give me my change now!</button>
+</form>
+
+
+{{/partial}}
+
+{{> layout.hbs}}

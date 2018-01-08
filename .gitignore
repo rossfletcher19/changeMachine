@@ -36,3 +36,8 @@ Thumbs.db
 ############
 build/
 .gradle/
+
+# IntelliJ #
+############
+.idea
+.idea/
